@@ -1,4 +1,6 @@
-
+body{
+background-color: darksalmon;
+}
 .myButton{
     height: 300px;
     width: 300px;
@@ -10,13 +12,11 @@
     top: 50%;
     background-color: lightcyan;
     box-shadow: 2px 3px gray;
-}
-a{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 60px;
     font-weight: 300;
-    text-decoration: none;
     color: black;
   
 }
+
  

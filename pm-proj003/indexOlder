@@ -1,0 +1,41 @@
+<!-- 5.Codifique seu HTML e CSS de acordo com o desifn do Avocode-->
+
+<!-- 6.Crie a página senha.html e conecte o link Esqueci minha senha a ela-->
+
+<!DOCTYPE html>
+<html>
+<head link href="normalize.css" type="text/css" rel="stylesheet"/>
+<link href="style.css" type="text/css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>
+        Login
+    </title>
+<head>
+   <body>
+       <div class="logotipo">
+           <img class="logoLogin" src="logo.png"/>
+       </div>
+
+
+       <div>
+         <form >
+        <!--verificar se tem arroba no email-->     
+    <input  type="email" name="email" placeholder="Seu e-mail" >
+
+    <!--Mascarar a senha digitaada-->
+           <br> <input type="password" name="pwd" placeholder="Sua Senha">
+           <br> <input class="btnLogin" type="button" value="login" >
+           <br><a class="textNvSenha" href="senha.html">Esqueci minha senha</a>
+         </form>
+       </div>
+
+
+      
+
+
+</body> 
+
+
+
+</html>
+

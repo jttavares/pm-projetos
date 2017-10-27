@@ -1,94 +1,45 @@
 *{
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+}
+body{
     background-color: #e6e6e6;
-   
+    padding: 10px;
+    font-family: 'Opens Sans', sans-serif;
 }
-div{
-    margin-top: 9px;
+.noticia{
+    background-color: #fff;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0px 1px 1px #999999;
+    margin-bottom: 15px;
 }
-h1{
-    color: red;
-    font-size: 16px;
+.noticia img{
+    width: 100%;
+    border-radius: 2px 2px 0px 0px;
 }
-img{
-    width: 300px;
-    height: 168px;
-    margin: 11px 10px 0px 10px;
-    
-   }
-.images{
-background-color: #fff;
-border-radius: 2px 2px 0 0;
-   }
-p{
-    width: 283px;
-    height: auto;
-    color: #333333;
-    background-color: #FFF;
-    font-size: 14px;
-    font-weight: 300;
-    font-style: Light;
-    line-height: 16px;
-    padding: 0px 8px 0px 9px;
+.noticia .texto{
+   padding: 18px; 
+}
+.noticia .detalhes{
     margin-bottom: 10px;
-    overflow: hidden;
-}
-#pirmaosbatista{
-    padding-bottom: 40px;
-}
-#from{
-    color: #333333;
-    background-color: #FFF;
-    width: 55px;
-    height: 16px;
-    font-style: Semibold;
-    font-weight: 600;
-    line-height: 16px;
-    margin-top: 10px;
-    margin-left: 9px;
-}
-#time{
-margin-left: 9px; 
-width: 246px;
-height: 16px;
-color: #999999;
-    background-color: #FFF;
-font-family: "Open Sans";
-font-size: 11px;
-font-weight: 300;
-line-height: 16px;
-}
-#from, #time{
-    display: inline;
     text-transform: uppercase;
 }
-a:link{
+.noticia h2{
+   margin-bottom: 10px;
+    font-size: 21px;
+    color: #c4170c;
+    line-height: 25px;
+}
+.noticia a{
     text-decoration: none;
+    color: #b5000d;
 }
-
-.texto{
-    width: 300px;
-    height: 153px;
-    margin: 10px;
-    margin-top: 0px;
-    background-color:#ffffff; 
-    box-shadow: 0 1px 1px rgba(153,153,153,0.5);
-    opacity: 50%;
-    border-radius: 0 0 2px 2px;
+.noticia .quando{
+    color: #d6d6d6;
+    font-size: 13px;
+    margin-left: 8px;
 }
-.manchete{
-  text-align: left;
-     height: auto;
-width: 283px;
-padding: 7px;
-color: #b5000d;
-    background-color: #FFF;
-font-family: "Open Sans";
-font-size: 16px;
-font-style: Bold;
-font-weight: 700;
-line-height: 18px;
+.noticia .local{
+    font-weight: 700;
 }
 

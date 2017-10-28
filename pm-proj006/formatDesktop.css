@@ -99,7 +99,7 @@ and (max-width:1080px)
 @media screen 
     and (min-width:540px)
     and ( max-width:899px)
-or (orientation: landscape){
+and (orientation: landscape){
         *{
             margin: 0px;
             padding: 0px;

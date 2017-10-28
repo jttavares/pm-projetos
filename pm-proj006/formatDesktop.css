@@ -41,7 +41,6 @@
     text-transform: uppercase;
     margin-top: 0px;
     text-align: left;
-    -webkit-font-smoothing: antialiased;
 }   
     
 }
@@ -92,12 +91,11 @@ and (max-width:1080px)
     text-transform: uppercase;
     margin-top: 0px;
     text-align: left;
-    -webkit-font-smoothing: antialiased;
 }   
     
 }
 @media screen 
-    and (min-width:450px)
+    and (min-width:361px)
     and (orientation: landscape)
     and ( max-width:899px)
 {
@@ -137,12 +135,11 @@ and (max-width:1080px)
     text-decoration: none;
 }
 .texto{
-   
+   font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 0px;
     text-align: left;
-    -webkit-font-smoothing: antialiased;
 }   
     
 }  
@@ -187,12 +184,11 @@ and (max-width:1080px)
     text-decoration: none;
 }
 .texto{
-   
+   font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 0px;
     text-align: left;
-    -webkit-font-smoothing: antialiased;
 }   
     
 }  

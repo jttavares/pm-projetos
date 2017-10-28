@@ -1,0 +1,146 @@
+@media screen and (min-width:1081px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    div{
+        display: block;
+        text-align: center;
+    }
+    
+    ul{
+        width: 100%;
+       display: block;
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    ul li{
+        float: left;
+        position: relative;
+       padding: 25px 13px;
+        width: 30%;
+        list-style-type: none;
+        
+    }
+    
+    .logo{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        height: 40px;
+    width: 213px;
+    }
+    a{
+    color: #494949;
+    text-decoration: none;
+}
+.texto{
+    
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0px;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+}   
+    
+}
+
+@media screen
+and (min-width:900px)
+and (max-width:1080px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    div{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    ul{
+        width: 100%;
+       display: block;
+        margin: 10px;
+       
+        
+    }
+    ul li{
+        float: left;
+        position: relative;
+       padding: 25px 13px;
+        width: 30%;
+        list-style-type: none;
+        
+    }
+    
+    .logo{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        height: 40px;
+    width: 213px;
+    }
+    a{
+    color: #494949;
+    text-decoration: none;
+}
+.texto{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0px;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+}   
+    
+}
+@media screen 
+    and (min-width:540px)
+    and ( max-width:899px) {
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    div{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    ul{
+        width: 100%;
+       display: block;
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    ul li{
+        float: left;
+        position: relative;
+       padding: 20px ;
+        width: 40%;
+        list-style-type: none;
+    }
+    
+    .logo{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 40px;
+    width: 213px;
+    }
+        a{
+    color: #494949;
+    text-decoration: none;
+}
+.texto{
+   
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0px;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+}   
+    
+}  
+

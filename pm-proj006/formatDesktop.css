@@ -95,8 +95,7 @@ and (max-width:1080px)
     
 }
 @media screen 
-    and (min-width:361px)
-    and (orientation: landscape)
+    and (min-width:540px)
     and ( max-width:899px)
 {
         *{

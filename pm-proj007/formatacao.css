@@ -1,23 +1,161 @@
 body{
-    background-color: aquamarine;
-    text-align: center
+    font-family: 'Lato',sans-serif;
+    background-image: url(hero/imagem-fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-weight: 500;
 }
-h1,h2,h3{
+.container{
     text-align: center;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: 300;
+    width: 80%;
     margin: auto;
-    letter-spacing: 0.3em;
+    margin-left: 250px
 }
-h3{
-    margin-top: 100px;
+header{
+    color: #fff;
+    height: 80px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+header h1{
+    background-image: url(header/logo.png);
+    background-repeat: no-repeat;
+    height:75px;
     font-size: 20px;
 }
-h2{
-    margin-top: 15px;
-    font-size: 30px;
+header span{
+    visibility: hidden;
 }
-h1{
-    margin-top: 15px;
-    font-size: 40px;
+nav ul{
+    list-style-type: none;
+     word-spacing: 3em;
+    margin-top: 0px;
+}
+nav li{
+    display: inline;
+ 
+  }
+nav a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+#linkConvite{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    border-radius: 3px;
+    padding:  8px 25px;
+}
+#topo{
+     height: 740px;
+   }
+#topo .container{
+     text-align: left;
+   margin-top: 200px; 
+}
+#topo h2{
+    font-size: 50px;
+}
+#topo h3{
+    font-size: 36px;
+    font-weight: 300;
+}
+#topo a{
+    font-size: 36px;
+    font-weight: 300;
+    background-color: #ff3d7f;
+    color: #fff;
+    text-decoration: none;
+  padding: 10px 120px;
+}
+#conheca{
+    background-color: #fff;
+}
+#conheca .container{
+    text-align:center;
+    display: inline-flex;
+    padding: 74px;
+    
+}
+#textoConheca{
+    padding-left: 74px;
+    text-align: left;
+}
+
+#conheca h2{
+    color: #000;
+    font-size: 36px;
+    font-weight:bold;
+}
+#conheca p{
+    color: #000;
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+#conheca a{
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff3d7f;
+    padding: 10px 60px;
+    margin-top: 0px;
+}
+#depoimentos{
+    background-color: #ebe7fb;
+    height: 450px;
+    border-top:solid 3px;
+    border-color:#511099;
+}
+#depoimentos .container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+}
+#depoimentos p{
+    font-weight: 300;
+}
+#depoimentos h3{
+    font-weight: bold;
+}
+#convite{
+    background-image: url(convite/fundo-convite.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 424px;
+}
+#convite input{
+    height: 60px;
+    width: 36%;
+    background-color:rgba(255,255,255,0.7);
+   padding: 30px;
+    margin-top: 150px
+}
+::-webkit-input-placeholder{
+    
+   background-image: url(convite/botao-convite.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    padding: 10px;
+    color: #4a4a4a;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+footer{
+    height: 73px;
+    background-color: #2a0157;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 40px;
+    border-top:solid 3px;
+    border-color:#ffffff;
 }

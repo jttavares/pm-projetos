@@ -1,22 +1,23 @@
-body{
+media screen(max-width:768px){
+    body{
     font-family: 'Lato',sans-serif;
     color: #fff;
     font-weight: 500;
 }
 .container{
     text-align: center;
-    width: 67%;
+    width: 100%;
     margin: auto;
 }
 #hero{
     background-image: url(hero/imagem-fundo.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 50%;
     height: 820px;
 }
 header{
     color: #fff;
-    height: 4%;
+    height: 101px;
     font-weight: 500;
     margin: 0 auto;
 }
@@ -36,7 +37,7 @@ nav ul{
     margin-top: 0px;
 }
 nav li{
-    display: inline;
+    display: block;
   }
 nav a{
     text-decoration: none;
@@ -50,11 +51,11 @@ nav a{
     padding:  8px 25px;
 }
 #topo{
-     height: 32%;
+     720px;
    }
 #topo .container{
-   text-align: justify;
-  padding-top: 10%;
+   text-align: left;
+  padding-top: 20px;
 }
 #topo h2{
     font-size: 50px;
@@ -75,10 +76,16 @@ nav a{
     background-color: #fff;
     height: 553px;
 }
+    #conheca img{
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+    }
 #conheca .container{
     text-align:center;
-    display: inline-flex;
-   padding: 3% 20%;
+    display: block;
+    height: 100%;
+   padding: 40px;
 }
 #textoConheca{
     padding-left: 74px;
@@ -180,3 +187,4 @@ footer{
 }
 
 }
+    }

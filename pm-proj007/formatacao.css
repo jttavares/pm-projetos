@@ -1,5 +1,5 @@
 @media screen
-    and (min-width:769px){
+    and (min-width:1200px){
 body{
     font-family: 'Lato',sans-serif;
     color: #fff;
@@ -27,6 +27,7 @@ header h1{
     background-image: url(header/logo.png);
     background-repeat: no-repeat;
     background-size: auto;
+    background-position: left;
     height:75px;
     width: 100%;
     float: left;
@@ -35,7 +36,7 @@ header span{
     visibility: hidden;
 }
 nav ul{
-    
+    margin-left: 20px;
     list-style-type: none;
      text-align: center;
     word-spacing: 5em;

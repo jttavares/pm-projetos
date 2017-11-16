@@ -7,13 +7,12 @@
         display: block;
     }
     #hero{
-        background-color: #5e55b0;
-        height: 400px;
+        height: 700px;
     }
     header{
-        margin: 0 auto;
         word-spacing: 0.5em;
         background-color: #5e55b0;
+        height: 220px;
     }
     header h1{
         background-image: url(header/logo.png);
@@ -37,6 +36,7 @@
         list-style-type: none;
         display:inline-block;
         padding-top: 8px;
+       
     }
     nav ul li a{
         text-decoration: none;
@@ -48,11 +48,24 @@
         padding: 2px 5px;
         border-radius: 3px;
     }
+#topo{
+    background-color: #5e55b0;
     
+}
+#topo .container{
+    margin-top: 0;
+    height: 450px;
+}
+#topoImg{
+    height: 297px;
+    background-image:url(hero/imagem-fundo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
     #topoTexto{
         text-align:center;
-        margin-top: 40px;
-    }
+}
     #topoTexto h2{
         font-size: 20px;
         font-weight: 500;
@@ -115,39 +128,42 @@
         background-size: 100% 100%;
     }
     #convite input{
-        text-align: left;
-        width: 80%;
+        text-align: justify;
+        width: 60%;
         margin-top: 70px;
         height: 70px;
+        background-color:rgba(255,255,255,0.7);
+        padding: 10px;
     }
     ::-webkit-input-placeholder{    
    background-image: url(convite/botao-convite.png);
     background-repeat: no-repeat;
     background-position:right;
         background-size: contain;
-    padding: 20px 10px;
+    padding: 10px;
     color: #4a4a4a;
-    font-size: 12px;
+    font-size: auto;
     font-weight: 300;
 }
+
 ::-moz-placeholder { /* Firefox 19+ */
  background-image: url(convite/botao-convite.png);
     background-repeat: no-repeat;
     background-position:right;
     background-size: contain;
-    padding: 20px 10px;
+    padding: 10px;
     color: #4a4a4a;
-    font-size: 12px;
+    font-size: auto;
     font-weight: 300;
 }
 :-ms-input-placeholder { /* IE 10+ */
   background-image: url(convite/botao-convite.png);
     background-repeat: no-repeat;
     background-position:right;
-    background-size: contain;
-   padding: 20px 10px;
+    background-size: 40px;
+   padding:10px;
     color: #4a4a4a;
-    font-size: 12px;
+    font-size: auto;
     font-weight: 300;
 }
     footer{

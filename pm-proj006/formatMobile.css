@@ -1,46 +1,33 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 body{
-    background-color: #fff;
-    margin: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    background-image: url(logo-playcode-preto-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1 span{
+    visibility: hidden;
+}
+.card{
+    margin-bottom: 30px;
+}
+.card img{
+    width: 100%;
+}
+
+.card h2{
+    margin: 0;
+    
+    
+}
+.card a{
+    color: #4a4a4a;
+    text-decoration: none;
     font-family: 'Roboto',sans-serif;
     font-size: 20px;
     font-weight: 500;
-    text-transform: uppercase;      
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
 }
-div{
-     width: 100%;
-    text-align: center;
-}
-.logo{
-    background-color: #fff;
-    height: 40px;
-    width: 213px;
-    margin-bottom: -10px;
-}
-    
-ul{
-   width: 100%;
-    text-align: center;
-    
-}
-li{
-   width: 100%;
-    padding-top: 40px;
-    list-style-type: none;
-}
-img{
-    width: 100%;
-}    
-a{
-    color: #494949;
-    text-decoration: none;
-}  
-.texto{
-    margin-top: 0px;
-    text-align: left;
-    width: 90%;
-}   
-    

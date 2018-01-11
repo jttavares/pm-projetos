@@ -1,0 +1,74 @@
+body{
+    background-color: #f5f8f9;
+    font-family: 'Lato', sans-serif;
+}
+aside{
+    background-color: #3a3c40;
+    text-align: center;
+    padding: 50px !important;
+    height: 100vw;
+}
+aside img{
+    height: 140px;
+    width: 140px;
+}
+aside h1{
+    color: #f5a71e;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+aside h2{
+    color: #fff;
+    font-size: 1em; 
+    font-weight: 700;  
+}
+aside .button{
+    background-color: #f5a71e !important;
+    text-transform: uppercase;
+    font-size: 0.875em !important;
+    padding: 20px 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    box-shadow: 0 4px 0 rgba(245, 166, 35, 0.6);
+
+}
+aside .redesSociais{
+    margin-top: 20px;
+}
+aside .redesSociais li{
+display: inline;
+margin-right: 7px;
+}
+aside .redesSociais li i{
+    color: #fff;
+    font-size: 30px;
+}
+aside .habilidades{
+    text-align: left;
+}
+aside .habilidades h3{
+    color: #eee;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+aside .habilidades small{
+    font-size: 0.75em;
+    color: #8fa4af;
+}
+aside .habilidades progress{
+    margin-bottom: 5px;
+}
+aside .habilidades progress::-webkit-progress-value{
+    margin-bottom: 5px;
+    background-color: #efb75a !important;
+}
+aside .habilidades progress::-ms-fill{
+    
+    background-color: #efb75a !important;
+}
+aside .habilidades progress::-moz-progress-bar{
+    
+    background-color: #efb75a !important;
+}

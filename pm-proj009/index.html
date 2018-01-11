@@ -3,162 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <title>Projeto 9</title>
-    <link rel="stylesheet" href="formatacao.css">
+    <link rel="stylesheet" href="fontes/stylesheet.css">
+    <link rel="stylesheet" href="css/principal.css">
     
 </head>
 <body>
-<section class="container">
-    <header>
-      
-       <nav>
-          <h2>Checkout</h2>
-           <ul>
-               <li><a href="#">Shipping > </a></li>
-               <li class="atualPage"><a href="#"> Payment Method > </a></li>
-               <li><a href="#">Confirmation</a></li>
-           </ul>
-          
-       </nav>
-            <img src="Imagens/close.png" alt="">
-   </header>
- 
-      <div class="principal">
-      
-      <form action="">
-          <div class="pagamentoInfo">
-           <h2>Wallet</h2>
-           <ul class="cartoes">
-               <li><a href="#">
-                   <img src="Imagens/visa.png" alt="">
-               </a></li>
-               <li><a href="#"><img src="Imagens/mc.png" alt=""></a></li>
-               <li><a href="#"><img src="Imagens/discover.png" alt=""></a></li>
-           </ul>
-           
-           <h2 id="newcard">New Card</h2>
-           <ul>
-               <li><input type="text" placeholder="Name on card"></li>
-               <li><input type="text" placeholder="1111-1111-1111-1112"></li>
-               
-               <li>
-               <div id="validacao">
-                   <input id="validadeCartao" type="text" placeholder="MM/YY">
-               <input id="codigo" type="text" placeholder="CVC">
-               </div>
-               </li>
-               <li><input id="check" type="checkbox"><label  id="lblCheck"for="">Add card to wallet</label></li>
-               <li><button>Continue</button></li>
-           </ul>
-       </div>
-      </form>
-       
-       
-       <div class="total">
-         <ul class="produtosComprados">
-             <li><a href="#">
-                    <div>
-                        <img src="Imagens/bota.png" alt="">
-                    </div>
-                         
-                   <div class="detalhes">
-                       <div class="descricao">
-                         <h3>The Chelsea Boot </h3>
-                     <p>Black</p>
-                     <small>Quantity: 1</small>
-                     </div>
-                     
-                     <div class="preco"><h3>$235</h3></div>
-                   </div>
-                    </a></li>
-                    
-                    <li><a href="#">
-                            <div>
-                                <img src="Imagens/mochila.png" alt="">
-                                </div>
-                                
-                                <div class="detalhes">
-                                    <div class="descricao">
-                                        <h3>The Twill Snap Backpack</h3>
-                                    <p>Reverse Denim + Black leather</p>
-                                    <small>Quantity: 1</small>
-                                    </div>
-                                    
-                                    <div class="preco">
-                                        <h3>$65</h3>
-                                    </div>
-                                </div>
-                            
-                        </a></li>
-                    <li><a href="#">
-                            <div>
-                                <img src="Imagens/bolsa.png" alt="">
-                                 </div>
-                                <div class="detalhes">
-                                    <div class="descricao">
-                                        <h3>The Twill Zip Tote</h3>
-                                    <p>Reverse Denim + Black leather</p>
-                                   <small>Quantity: 1</small>
-                                    </div>
-                                    
-                                    <div class="preco">
-                                        <h3>$48</h3>
-                                    </div>
-                                </div>
-                           
-                        </a></li>
-                    <li id="lastItem"><a href="#">
-                            <div>
-                                <img src="Imagens/cachecol.png" alt="">
-                                 </div>
-                                <div class="detalhes">
-                                    <div class="descricao">
-                                        <h3>The Chunky Wool Scarf</h3>
-                                    <p>Black</p>
-                                   <small>Quantity: 1</small>
-                                    </div>
-                                    
-                                    <div class="preco">
-                                        <h3>$50</h3>
-                                    </div>
-                                </div>
-                           
-                        </a></li>
-         </ul>
-         
-          <div class="valores">
-             <ul >
-               <li id="firstItem">
-               <p> Subtotal </p>
-               <p>$398</p>
-              </li>
-              
-               <li>
-               <p> Shipping              </p>
-               <p>Free</p>
-               </li>
-               
-               
-               <li>
-               <p> Taxes </p>
-               <p>12.12</p>
-           
-               </li>
-           </ul>
-           
-           <div class="subTotal">
-               <p>Total</p>
-               <p>$410.12</p>
-           </div>
-           
+    <div class="checkout">
+        <header>
+            <div>
+                <h1>Checkout</h1>
+                <span>Shipping > <strong>Payment Method</strong> > Confirmation</span>
+            </div>
+            <a href="#"><span>Fechar</span></a>
             
-          </div> 
-           
-       </div>
-   </div>
-  
-</section>
- 
-   
-   
+        </header>
+        <main>
+            <div class="cartao">
+               <div class="wallet">
+                   <h2>Wallet</h2>
+                   <ul>
+                       <li><a href="#">
+                                  <img src="Imagens/visa.png" alt="">
+                                   <smal>Ending in 2222</smal>
+                               </img>
+                               </a>
+                               </li>
+                               
+                       <li><a href="#">
+                                  <img src="Imagens/mc.png" alt="">
+                                   <smal>Ending in 2222</smal>
+                               </img></a></li>
+                               
+                       <li><a href="#"><img src="Imagens/discover.png" alt="">
+                                   <smal>Ending in 1111</smal>
+                               </img></a></li>
+                   </ul>
+                   
+               </div>
+               
+               <div class="newCard">
+                   <form action="">
+                       <fieldset>
+                           <legend>New Card</legend>
+                           <input type="text" placeholder="Name on Card">
+                           <input type="text" placeholder="1111-1111-1111-1112">
+                           <input type="text" class="data" placeholder="MM/YY">
+                           <input type="text" class="cvc" placeholder="CVC">
+                          <label for="addWallet">
+                           <input type="checkbox" name="addWallet" id="">
+                          Add card to wallet</label>
+                           <button>Continue</button>
+                       </fieldset>
+                   </form>
+               </div>
+                
+            </div>
+            
+            
+            <div class="resumos">
+                
+                <ul class="produtos">
+                    <li>
+                        <img src="Imagens/bota.png" alt="">
+                        <div class="detalhes">
+                            <h3>The Chelsea Boot</h3>
+                            <small>Black</small>
+                            <span>Quantity: 1</span>
+                        </div>
+                        <span class="preco">$235</span>
+                    </li>
+                    <li>
+                        <img src="Imagens/mochila.png" alt="">
+                        <div class="detalhes">
+                            <h3>The Twill Snap Backpack</h3>
+                            <small>Reverse Denim + Brown leather</small>
+                            <span>Quantity: 1</span>
+                        </div>
+                        <span class="preco">$65</span>
+                    </li>
+                    <li>
+                        <img src="Imagens/bolsa.png" alt="">
+                        <div class="detalhes">
+                            <h3>The Twill Zip Tote</h3>
+                            <small>Reverse Denim + Brown leather</small>
+                            <span>Quantity: 1</span>
+                        </div>
+                        <span class="preco">$48</span>
+                    </li>
+                    <li>
+                        <img src="Imagens/cachecol.png" alt="">
+                        <div class="detalhes">
+                            <h3>The Chunky Wool Scarf
+</h3>
+                            <small>Black</small>
+                            <span>Quantity: 1</span>
+                        </div>
+                        <span class="preco">$50</span>
+                    </li>
+                </ul>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Subtotal</th>
+                            <td>$398</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Shipping</th>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Taxes</th>
+                            <td>12.12</td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <th scope="row">Total</th>
+                                <td>$410.12</td>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+                
+            </div>
+        </main>
+    </div>
 </body>
 </html>

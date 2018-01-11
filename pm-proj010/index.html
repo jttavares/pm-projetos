@@ -3,214 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <title>Projeto 10</title>
-    <link rel="stylesheet" href="fontes/webfontkit-20180108-204525/stylesheet.css">
-   <link rel="stylesheet" href="normalize.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://use.fontawesome.com/9c5689f227.js"></script>
-    
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-   <link rel="stylesheet" href="estilo.css">
-   
-   
-    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
+    <link rel="stylesheet" href="normalize.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://use.fontawesome.com/9c5689f227.js"></script>
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="principal.css">
 </head>
 <body>
-    <div class="columns">
-        <div class="column is-4" >
-        <div class="perfil">
-                 <img src="jt.jpg" alt="">
-                 
-                 <h2>josé tavares g. filho</h2>
-                 
-                 <h3>HTML/CSS and C# Developer</h3>
-                 
-                 <div class="button is-warning is-large"><a href="http://jttavares.github.io/pm-projetos">
-                     portfólio</a>
-                 </div>
 
-                 <ul class="redesSociais">
-                     <li>
-                           <a href="https://github.com/jttavares">
-                            <span class="icon">
-                             <i class="fa fa-github"></i>
-                         </span>
-                         </a></li>
-                     
-                     <li><a href="https://www.linkedin.com/in/jose-tavares-0121984a">
-                          <span class="icon">
-                             <i class="fa fa-linkedin"></i>
-                         </span></a></li>
-                     
-                     <li><a href="https://www.facebook.com/jose.tavares.12914216"> <span class="icon">
-                             <i class="fa fa-facebook"></i>
-                         </span></a></li>
-                     
-                     <li><a href="https://twitter.com/JosTavares10"> <span class="icon">
-                         <i class="fa fa-twitter"></i>
-                            </span></a></li>
-                 </ul>
-                   
-                    <div class="tile is-vertical">
-                        <h3>Conhecimento</h3>
-                        <p>HTML e CSS</p>
-                        <progress class="progress is-warning is-small" value="75" max="100"></progress>
-                        <p> C#</p>
-                        <progress class="progress is-warning is-small" value="90" max="100"></progress>
-                        <p>C# - UWP</p>
-                        <progress class="progress is-warning is-small" value="70" max="100"></progress>
-                        <p>C# WPF e Windows Forms</p>
-                        <progress class="progress is-warning is-small" value="80" max="100"></progress>
-                    </div>
-            
-               
-            </div> 
-         
-        </div>
-        
-         <div class="column is-8">
-               <div class="container resumos is-fluid">
-               
-                       
-                            <div class="level is-7">
-                                    <div class="cabecalho">
-                                        <h2><i class="fa fa-file-text-o" aria-hidden="true"></i></h2>
-                                    <h2>Resumo</h2>
+<div class="container">
+        <div class="columns">
+            <!--Sidebar-->
+                <aside class="column is-4">
+                    <img src="jt.jpg" alt="">
+                   <h1>José Tavares G. Filho</h1>  
+                   <h2>HTML/CSS and C# Developer</h2>   
+                    <a class="button is-info is-large" href="http://jttavares.github.io/pm-projetos">Portfólio</a>
+                    <ul class="redesSociais">
+                        <li>
+                              <a href="https://github.com/jttavares">
+                            
+                                <i class="fa fa-github"></i>
+                         
+                            </a></li>
+                        
+                        <li><a href="https://www.linkedin.com/in/jose-tavares-0121984a">
+       
+                                <i class="fa fa-linkedin-square"></i>
+                       </a></li>
+                        
+                        <li><a href="https://www.facebook.com/jose.tavares.12914216"> 
+                                <i class="fa fa-facebook-square"></i>
+                            </a></li>
+                        
+                        <li><a href="https://twitter.com/JosTavares10"> 
+                            <i class="fa fa-twitter"></i>
+                              </a></li>
+                    </ul>
+
+                   <div class="habilidades">
+                       <h3>Conhecimento</h3>
+                       <ul>
+                           <li><small>HTML/CSS</small>
+                            <progress class="progress is-danger is-small" value="90" max="100" >90%</progress>    
+                            </li>
+                           <li><small>JavaScript                        </small>
+                            <progress class="progress is-danger is-small" value="50" max="100" >50%</progress>           
+                        </li>
+                           <li><small>C# - UWP</small>
+                            <progress class="progress is-danger is-small" value="85" max="100" >85%</progress>           
+                        </li>
+                           <li><small>C# WPF e Windows Forms</small>
+                            <progress class="progress is-danger is-small" value="90" max="100" >90%</progress>           
+                        </li>
+                       </ul>
+                   </div>
+
+                </aside>
+                
+                
+                <article class="column is-8">
+
+                    <div class="content">
+                            <h3 > <span><i class="fa fa-file-text"></i></span>  Resumo</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere, obcaecati temporibus maiores ad veniam consectetur nemo dolorem explicabo et hic fuga id illum pariatur atque iusto, voluptas aspernatur nesciunt!</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nam quia, perferendis iusto dolorem optio accusantium esse facilis eius sint. Ipsam tempora debitis officia consequuntur autem veniam laboriosam possimus placeat.</p>
+
+                            
+                            
+                            <h3 > <span><i class="fa fa-briefcase"></i></span>  Experiência</h3>
+                            <div class="instituicao columns">
+                                <div class="column is-3">
+                                    <h4>Aluno</h4>
+                                    <h5>PlayCode Makers</h5>
+                                    <small>Out/2017 - Até o Momento</small>
+                                </div>
+                                <div class="column">
+                                        <p>Aprendizado profundo e prático no desenvolvimento de sites e interfaces de usuários.
+                                                <br> Autenticação de usuários, Cards, Navegação entre páginas.
+                                                 <br> Tabelas HTML,Design responsivo,Land Pages, páginas para e-commerce.</p>
                                 </div>
                             </div>
-                            <div class="level-left is-7">
-                                  
-                                       Atualmente, estou estudando HTML/CSS/Java Script na Escola de programadores PlayCode-Makers, em estágio avançado no HTML e CSS.
-                                    Também, estudei C#, em várias modalidades onde já desenvolvo projetos UWP(Universal Windows Platform), WPF(Windows Presentation 
-                                     Foundation), Windows Form, console application. 
-                                     Conexão a banco de dados SQL Server e MySQL.                  
-                                    Já atendo pequenas empresas locais e estou pronto para oportunidades maiores.
-                                  
-                                    
-                            </div>
+
+                            <div class="instituicao columns">
+                                    <div class="column is-3">
+                                        <h4>Fundador</h4>
+                                        <h5>ScottXStudio</h5>
+                                        <small>Abr/2015 - Até o Momento</small>
+                                    </div>
+                                    <div class="column">
+                                            <p>Construção de sites, aplicativos OnDemand, Aplicações Windows.</p>
+                                    </div>
+                                </div>
                             
-                                
-                            <div class="level is-7">
-                                    <div class="cabecalho">
-                                            <h2><i class="fa fa-briefcase" aria-hidden="true"></i></h2>
-                                            <h2>Experiência</h2>
-                                        </div> 
-                                    </div>  
-                                    
-                                    <div class="level">
-                                        <div class="level-left is-3">
-                                                
-                                                <ul>
-                                                    <li>
-                                                            <h3>Aluno</h3>
-                                                            <h4>PlayCode Makers</h4>
-                                                            <h5>Out 2017 - Até o momento</h5>
-                                                    </li>
-                                                </ul>
-                                                <div class="level-left is-4">
-                                               
-                                                        Aprendizado profundo e prático no desenvolvimento de sites e interfaces de usuários.
-                                                      <br> Autenticação de usuários, Cards, Navegação entre páginas.
-                                                       <br> Tabelas HTML,Design responsivo,Land Pages, páginas para e-commerce.
-                                                    
-                                                </div>
-                                            </div>
-                                            
+
+                            <h3 > <span><i class="fa fa-trophy"></i></span>  Formação</h3>
+                            <div class="instituicao columns">
+                                    <div class="column is-3">
+                                        <h4>HTML/CSS</h4>
+                                        <h5>PlayCode Makers</h5>
+                                        <small>Outubro/2017 - Até o Momento</small>
                                     </div>
-                                    
-                                    <div class="level">
-                                        <div class="level-left is-3">
-                                                <ul>
-                                                        <li>
-                                                                <h3>Fundador</h3>
-                                                                <h4>ScottXStudio</h4>
-                                                                <h5>Abr/2015 - Até o momento</h5>
-                                                        </li>
-                                                    </ul>
-                                                    <div class="level-left is-4">
-                                                            Construção de sites, aplicativos OnDemand, Aplicações Windows.
-                                                    </div>
-                                            </div>
-                                            
+                                    <div class="column">
+                                            <p>Aprendizado profundo e prático no desenvolvimento de sites e interfaces de usuários.
+                                                    <br> Autenticação de usuários, Cards, Navegação entre páginas.
+                                                     <br> Tabelas HTML,Design responsivo,Land Pages, páginas para e-commerce.</p>
+                                    </div>
+                                </div>
+    
+                                <div class="instituicao columns">
+                                        <div class="column is-3">
+                                            <h4>JavaScript</h4>
+                                            <h5>CodeAacademy</h5>
+                                            <small>Nov/2017 - Jan/2018</small>
+                                        </div>
+                                        <div class="column">
+                                                <p>  JavaScript nivel básico.</p>
+                                        </div>
                                     </div>
 
-                                    
-
-                                        
-
-                                        <div class="level is-7">
-                                                <div class="cabecalho formacao">
-                                                        <h2><i class="fa fa-trophy" aria-hidden="true"></i></h2>
-                                                        <h2>Formação</h2>
-                                                    </div> 
+                                    <div class="instituicao columns">
+                                            <div class="column is-3">
+                                                <h4>C# Avancado</h4>
+                                                <h5>TreinaWeb</h5>
+                                                <small>Jul/2017 - Set/2017</small>
                                             </div>
-
-                                            <div class="level">
-                                                <div class="level-left is-3">
-                                                        
-                                                        <ul>
-                                                            <li>
-                                                                    <h3>HTML/CSS</h3>
-                                                                    <h4>PlayCode Makers</h4>
-                                                                    <h5>Out 2017 - Até o momento</h5>
-                                                            </li>
-                                                        </ul>
-                                                        <div class="level-left is-4">
-                                                          
-                                                                Aprendizado profundo e prático no desenvolvimento de sites e interfaces de usuários.
-                                                      <br> Autenticação de usuários, Cards, Navegação entre páginas.
-                                                       <br> Tabelas HTML,Design responsivo,Land Pages, páginas para e-commerce.
-                                                            
-                                                        </div>
-                                                    </div>
+                                            <div class="column">
+                                                    <p>Delegates, Eventos, Conexão a base de Dados SQLServer e MySQL, Programação Paralela e assìncrona.</p>
                                             </div>
-                                           
+                                        </div>
 
-                                                <div class="level">
-                                                        <div class="level-left is-3">
-                                                                <ul>
-                                                                        <li>
-                                                                                <h3>JavaScript</h3>
-                                                                                <h4>CodeAcademy</h4>
-                                                                                <h5>Nov 2017- Jan 2018</h5>
-                                                                        </li>
-                                                                    </ul>
-                                                                    <div class="level-left is-4">
-                                                                            JavaScript nivel básico.
-                                                                    </div>
-                                                        </div> 
+                                        <div class="instituicao columns">
+                                                <div class="column is-3">
+                                                    <h4>C# UWP</h4>
+                                                    <h5>MVA- Microsoft Virtual Academy</h5>
+                                                    <small>Jan/2017 - Abr/2017</small>
                                                 </div>
-
-                                                <div class="level">
-                                                        <div class="level-left is-3">
-                                                                <ul>
-                                                                        <li>
-                                                                                <h3>C# Avançado</h3>
-                                                                                <h4>TreinaWeb</h4>
-                                                                                <h5>Jul 2017 - Set 2017</h5>
-                                                                        </li>
-                                                                    </ul>
-                                                                    <div class="level-left is-4">
-                                                                       
-                                                                            Delegates, Eventos, Conexão a base de Dados SQLServer e MySQL, Programação Paralela e assìncrona.
-                                                                        
-                                                                    </div>
-                                                        </div> 
+                                                <div class="column">
+                                                        <p>Criação de aplicações para funcionamento multidispositivos(desktop e mobile) com base em .NET.</p>
                                                 </div>
+                                            </div>
+                    </div>
+                        
+                </article>
 
-                                                
-                                              
                
-            </div>  
-         
-           
-            
+    
+    
         </div>
-            
-        </div>
-        
-        
+</div>
+
    
-        
- 
+    
 </body>
 </html>

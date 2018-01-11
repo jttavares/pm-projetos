@@ -7,7 +7,6 @@ body{
 }
 .column.is-4{
     background-color: #3a3c40;
-    height: 100vh;
 }
 .perfil{
     width: 100%;
@@ -56,17 +55,18 @@ color: #fff;
    font-size: 30px;
     color: #fff;
 }
-.tile{
+.level-item{
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
+    flex-direction: column;
 }
-.tile h3{
+.level-item h3{
     text-align: left;
     font-size: 16px;
     margin-bottom: 20px;
 }
-.tile p{
+.level-item p{
     font-size: 12px;
     color: #8fa4af;
     text-align: left;  

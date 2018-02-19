@@ -1,0 +1,174 @@
+body{
+    background-color: #fff;
+    margin:0; padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+
+.container{
+    display: grid;
+    display: -ms-grid;
+    width: 100%;
+    height: 100vh;
+    -ms-grid-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    -ms-grid-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+   margin: 0;
+    margin-right: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.campos{
+    min-width: 375px;
+    margin-top: 0;
+}
+.container h3{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#altura{
+    grid-area: 1/2/ 2/3;
+    -ms-grid-row:1;
+    -ms-grid-column:2;
+  margin-top: -20px;
+    background-color: #3498db;
+    font-weight: 300;
+    text-align: left;
+}
+#alturaField{
+    height: 100px;
+    background-color: #3498db;
+    color: #fff;
+   border: none;
+   font-size: 100px;
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+#peso{
+    grid-area: 2/2/ 3/3;
+     -ms-grid-row:2;
+    -ms-grid-column:2;
+  background-color: #34495e;
+}
+#pesoField{
+    height: 100px;
+    background-color: #34495e;
+    color: #fff;
+   border: none;
+    font-size: 100px;
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+#calcImc{   
+    height: 100%;
+    grid-area: 3/2/ 4/3;
+     -ms-grid-row:3;
+    -ms-grid-column:2;
+  margin: 12px -1px 12px -1px;
+}
+
+#btnCalculo{
+   height: 100%;
+    width:100%;   
+    text-transform: uppercase;
+    color: #fff;
+   border: none;
+  background-color: #27ae60;    
+   box-shadow:  0px 6px 0px 0px #245b3b;
+    font-size: 72px;
+    font-weight: 300;
+}
+#insideButton{
+    width: 100%;
+   height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#insideButton #voltar{
+  width:42px;
+   height: 74px;
+    margin-right: 40px;
+}
+#insideButton #resultados{
+     height: 74px;
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#insideButton #resultados h3{
+    margin-top: -1px;
+}
+
+#lAltura{
+    grid-area: 1/1/2/2;
+     -ms-grid-row:1;
+    -ms-grid-column:1;
+     background-color: #3498db;
+    height: 100%;
+    width: 100%;
+}
+#rAltura{
+    grid-area:1/3/2/4;
+     -ms-grid-row:1;
+    -ms-grid-column:3;
+     background-color: #3498db;
+}
+#lPeso{
+   grid-area: 2/1/3/2;
+     -ms-grid-row:2;
+    -ms-grid-column:1;
+    background-color: #34495e;
+}
+#rPeso{
+   grid-area: 2/3/3/4;
+     -ms-grid-row:2;
+    -ms-grid-column:3;
+    background-color: #34495e;
+}
+#lCalc{
+    height: 100%;
+    grid-area: 3/1/4/2;
+     -ms-grid-row:3;
+    -ms-grid-column:1;
+   background-color: #27ae60;
+     box-shadow: 0px 6px 0px 0px #245b3b;
+    margin: 12px 0px 12px 12px;
+    border-radius: 6px 0px 0px 6px;
+    
+}
+#rCalc{
+    height: 100%;
+    grid-area: 3/3/4/4;
+     -ms-grid-row:3;
+    -ms-grid-column:3;
+    background-color: #27ae60;
+     box-shadow: 0px 6px 0px 0px #245b3b;
+    margin: 12px 12px 12px 0px;
+    
+    border-radius: 0px 6px 6px 0px;
+}

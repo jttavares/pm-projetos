@@ -60,9 +60,6 @@ else if(valor>=25 && valor<30){
 function styleResposta(){
     document.getElementById('btnCalculo').style.visibility="hidden";
     document.getElementById('insideButton').style.visibility='visible';
-  /* document.getElementById('btnCalculo').style.backgroundColor="#fff";
-   document.getElementById('btnCalculo').style.border='none';
-    document.getElementById('btnCalculo').style.boxShadow="none";*/
     document.getElementById('voltar').style.backgroundImage="url('voltar.png')";
     document.getElementById('voltar').style.backgroundRepeat='no-repeat';
     document.getElementById('voltar').style.backgroundSize='cover';
@@ -79,9 +76,7 @@ function styleResposta(){
     document.getElementById('lCalc').style.boxShadow='none';  
 } 
 
-document.getElementById('voltar').addEventListener("click",styleParameters);
-
-function styleParameters(){
+function styleParameters(event){
     window.location.reload();
 }    
 

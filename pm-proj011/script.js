@@ -78,5 +78,6 @@ function styleResposta(){
 
 function styleParameters(event){
     window.location.reload();
+   
 }    
 

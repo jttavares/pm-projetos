@@ -1,0 +1,25 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    text-align: center;
+    font-family: 'Kavivanar', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+}
+.main h1{
+    background-color: darkturquoise;
+}
+
+.main p{
+    background-color: darkturquoise;
+}
+.main button{
+    height: 40px;
+    width: 150px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+   }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700" rel="stylesheet">  
+    <title>Calculadora de Taxas</title>
+</head>
+<body>
+    <div class="banner">
+        <h1>Calculadora de Taxas</h1>
+    </div>
+    <div class="container">
+            <form action="">
+                    <small>Total da Dívida: </small>
+                    <input id="txtDivida" type="number">
+                    <br>
+                    <small>Total de Parcelas a Vencer: </small>
+                    <input id="txtPrazo" type="number">
+                    <br>
+                    <small>Parcela Desejada: </small>
+                    <input id="txtPrestacao" type="number">
+                    <br>
+                    <small>Margem negativa a compensar: </small>
+                    <input id="txtNegativo" type="number">
+                </form>
+                <button onclick="onClickCalculo()">Calcular Taxa</button>
+                <h2 id="resultado"></h2>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+.banner{
+    background-color: red;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+.container{
+    text-align: center;
+}
+.container form{
+    width: 350px;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.container input{
+    height: 30px;
+    width: 150px;
+    text-align: right;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.container small{
+    font-weight: 700;
+}
+.container button{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+#resultado{
+   font-size: 24px;
+   margin-top: 30px; 
+}

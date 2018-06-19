@@ -31,8 +31,8 @@ body{
 .container small{
     font-weight: 700;
 }
-.container button{
-    margin-top: 10px;
+button{
+    margin-top: 15px;
     width: 200px;
     height: 40px;
     font-size: 22px;

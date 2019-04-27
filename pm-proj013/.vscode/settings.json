@@ -1,0 +1,6 @@
+{
+    "phpserver.phpPath": "C:\\xampp\\php\\php.exe",
+    "phpserver.ip": "localhost:8080",
+    "jshint.esversion":6
+    
+}

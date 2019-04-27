@@ -1,0 +1,43 @@
+.arrayProdutos{
+    display: block;
+    width: 100%;
+}
+.arrayProdutos .produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 72px;
+    background-color: #ef3e3e;
+    color: #fff;
+    line-height: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.arrayProdutos .produtos h6{
+    font-weight: 400;
+    font-size: 20px;
+     
+}
+.arrayProdutos .produtos #textPdt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.arrayProdutos .produtos #textPdt #divMinimo{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.arrayProdutos .produtosUpdate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 72px;
+    background-color: #34495e;
+    line-height: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.arrayProdutos .produtosUpdate button{
+    background-color: transparent;
+    border: none;
+}

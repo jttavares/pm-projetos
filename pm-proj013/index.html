@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <!--Aprender a persistir os dados em localStorage-->
+        <!--https://playcode.com.br/ref-localstorage-->
+    <!--Aprendera organizar seu código em classes e componentes-->
+        <!--Um arquivo para cada classe-->
+            <!--https://playcode.com.br/ref-es6class-->
+        <div class="container">
+            <!--campo de input-->
+                <!--1 botao + 1 input +1 botão-->
+                    <!--1 paragrafo 1 strong +2 botoes-->
+             <div class="inputmember">
+                 <button id="voltar"></button>
+                 <input id="inputField" type="text" >
+                 <button id="salvar"></button>
+             </div>
+             <div class="setupInput">
+                    <p>Estoque <br> Mínimo</p>
+                    <strong id="vlEstqMinimo">1</strong>
+                    <button class="btnMenos">
+                    </button>
+                    <button class="btnMais">
+                    </button>
+                </div>  
+             
+             <!--Array de produtos-->
+            <div class="arrayProdutos">
+                    <!--1 div /produto 2 paragrafos  e 1 h6-->
+                    <div class="produtos">
+                        <div id="textPdt" >
+                            <div>
+                                    <p id="novoProduto">Produto</p>    
+                            </div>
+                                
+                            <div id="divMinimo">
+                                <p><small id="pdtEstoqueMinino">Mín 6</small></p>
+                            </div>
+                        </div>
+                                
+                               
+                        <h6>1</h6>
+                    </div>
+                    
+                    <!--1 div com 3 botoes-->
+                    <div class="produtosUpdate">
+                        <button class="btnExcluir">
+                            <img src="/images/lixeira.png" alt="">
+                        </button>
+                        <button class="btnMinus">
+                            <img src="/images/btnMenos.png" alt="">
+                        </button>
+                        <button class="btnPlus">
+                            <img src="/images/btnMais.png" alt="">
+                        </button>
+                    </div>
+                </div>
+
+            <div class="logoCentral">
+                <p>
+               Cadastre seus <br> produtos. 
+            </p>
+            <img src="/images/carrinho.png" alt="">
+            </div>
+
+        </div>
+   
+    
+    
+
+    <script src="scripts/script.js"></script>
+<!--
+    <script src="scripts/jsAtualizarEstoque.js"></script>
+    <script src="scripts/jsAtualizarLista.js"></script>
+    <script src="scripts/jsInserirProduto.js"></script>
+    <script src="scripts/jsPersistencia.js"></script>
+-->
+    
+</body>
+</html>

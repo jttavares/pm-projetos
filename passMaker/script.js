@@ -22,7 +22,7 @@ function generatePass(){
     result.innerHTML="";
     text="";
     for(let i=0; i<12;i++){
-    pass[i]=caracteres[Math.floor((Math.random()*74)+1)];
+    pass[i]=caracteres[Math.floor((Math.random()*74))];
     text+=pass[i];
 }
 result.innerHTML=text;

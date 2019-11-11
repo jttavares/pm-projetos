@@ -4,13 +4,9 @@
     font-family: 'Lato',sans-serif;
     font-size: 60px;
 }
-.display{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20vh;
-    
-}
 .display input{
+    height: 20vh;
+    width: 100vw;
     background-color: #202020;
     color: #fff;
     text-align: right;
@@ -20,9 +16,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 20vh 20vh 20vh 20vh;
     font-weight: 300;
-}
-.keyboard button{
-    
 }
 .keyboard .clear{
     font-weight: 400;

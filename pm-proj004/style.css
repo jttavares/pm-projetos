@@ -1,17 +1,19 @@
 body{
-    background-color: #fff;
+    background-color: #dedede;
     
 }
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
 li{
-  
-    min-height: 150px;
-    margin-bottom: 5px;
- 
-    padding-left: 30px;
-   
-   list-style-type: none;
- background-color: #27ae60;
-    
+    height: 200px;
+    margin: 10px;
+    padding: 40px 20px;
+    list-style-type: none;
+    background-color: #27ae60;
+    width: 200px;
+    border-radius: 6px;
 }
 li:hover{
     color: #27ae60;
@@ -19,31 +21,28 @@ li:hover{
 }
 
 a{
+    
     text-decoration: none;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    font-size: 30px;
-   color: #fff;
+    font-size: 24px;
+    color: #fff;
     font-weight: 500;
     font-style: medium;
-  line-height: 4.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
   -webkit-font-smoothing: antialiased;
 }
 
 span{
-    padding-left: 20px;
+    margin-top: 10px;
   vertical-align: middle;
 }
 img{
     color: #fff;
-}
-
-.arrow{
-   position: absolute;
-    left: 95%;
- 
-   margin-right: 20px;
-  padding-top: 55px
 }
 .done{
     padding-left: 0px;

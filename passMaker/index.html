@@ -10,8 +10,37 @@
 </head>
 <body>
     <div class="container">
-        <button id="btnGenerate">Generate Pass</button>
-        <p id="result"></p>
+        <h1>Simple Pass Generator</h1>
+        <div class="controls">
+            <div class="form-group">
+                <input type="checkbox" name="numbers" id="numbers" checked>
+                <label for="numbers">Números</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="strings" id="strings">
+                <label for="strings">Letras Maiúsculas e Minúsculas</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="symbols" id="symbols">
+                <label for="symbols">Caracteres Especiais (!#@%...)</label>
+            </div>
+
+         
+            <div class="form-group ">
+
+                <label for="quantidade">Quantidade de caracteres</label>
+                <input type="number"  name="quantidade" id="quantidade" value="6">
+            </div>
+
+
+        </div>
+        <div class="form-group for-button">
+            <button id="btnGenerate">Generate Pass</button>
+        </div>
+        <div class="form-group for-button">
+
+            <p id="result"></p>
+        </div>
     </div>
 
     <script src="script.js"></script>
